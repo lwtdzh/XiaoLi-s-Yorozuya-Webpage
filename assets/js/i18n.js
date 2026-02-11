@@ -155,6 +155,24 @@ const translations = {
     'contact.sidebar.visit.title': '到店与线上说明',
     'contact.sidebar.visit.p1': '若你在云谷园区或附近工作/生活，可在预约时注明"希望线下面谈"，掌柜会结合当天情况安排合适的见面地点与时间。',
     'contact.sidebar.visit.p2': '对于大多数咨询、占卜与语言课程，线上体验与线下差异不大，且时间安排更灵活；涉及维修与跑腿的项目，则以线下为主。',
+
+    // Services page
+    'services.hero.title': '服务项目总览',
+    'services.hero.subtitle': '这里列出的是常见且相对"标准化"的服务内容，实际可提供的细分服务超过 180 项。若未在列表中找到，请直接联系掌柜沟通。',
+    'services.hero.breadcrumb': '服务项目',
+    'services.divination.title': '占卜 · 命理相关',
+    'services.divination.intro': '以轻量、尊重与理性为前提的占卜服务，更偏向于"帮你看清当下"，而不是简单给出"好/不好"的结论。',
+    'services.next.title': '下一步怎么做？',
+    'services.next.cta': '前往联系页面',
+
+    // Services page
+    'services.hero.title': '服务项目总览',
+    'services.hero.subtitle': '这里列出的是常见且相对"标准化"的服务内容，实际可提供的细分服务超过 180 项。若未在列表中找到，请直接联系掌柜沟通。',
+    'services.hero.breadcrumb': '服务项目',
+    'services.divination.title': '占卜 · 命理相关',
+    'services.divination.intro': '以轻量、尊重与理性为前提的占卜服务，更偏向于"帮你看清当下"，而不是简单给出"好/不好"的结论。',
+    'services.next.title': '下一步怎么做？',
+    'services.next.cta': '前往联系页面',
   },
   
   'zh-TW': {
