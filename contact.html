@@ -40,12 +40,12 @@
 
     <section class="page-hero">
       <div class="container">
-        <h1>联系小李万事屋</h1>
+        <h1><span data-i18n="contact.hero.title">联系小李万事屋</span></h1>
         <p>
-          你可以通过下方的表单，或直接添加微信 / 发送邮件与掌柜取得联系。一般会在工作日 24 小时内回复。
+          <span data-i18n="contact.hero.subtitle">你可以通过下方的表单，或直接添加微信 / 发送邮件与掌柜取得联系。一般会在工作日 24 小时内回复。</span>
         </p>
         <div class="breadcrumbs">
-          <a href="/">首页</a> · <span>联系与预约</span>
+          <a href="/"><span data-i18n="nav.home">首页</span></a> · <span><span data-i18n="contact.hero.breadcrumb">联系与预约</span></span>
         </div>
       </div>
     </section>
@@ -54,100 +54,100 @@
       <div class="container layout-3col">
         <div>
           <section class="section" style="padding-top: 0">
-            <h2 class="section-title">在线预约意向</h2>
+            <h2 class="section-title"><span data-i18n="contact.form.title">在线预约意向</span></h2>
             <p class="section-intro">
-              以下表单不会自动发送到任何后台系统，仅用于帮你梳理思路并进行本地校验。提交后，请将生成的信息通过微信、邮件或其他方式发送给掌柜。
+              <span data-i18n="contact.form.intro">以下表单不会自动发送到任何后台系统，仅用于帮你梳理思路并进行本地校验。提交后，请将生成的信息通过微信、邮件或其他方式发送给掌柜。</span>
             </p>
             <form id="contact-form">
               <div class="field-row">
                 <div>
-                  <label for="name">你的称呼 *</label>
+                  <label for="name" data-i18n="contact.form.name.label">你的称呼 *</label>
                   <input
                     type="text"
                     id="name"
                     name="name"
-                    placeholder="例：小王 / Haru / Lily"
+                    placeholder="例：小王 / Haru / Lily" data-i18n-placeholder="contact.form.name.placeholder"
                     required
                   />
                 </div>
                 <div>
-                  <label for="preferred-time">期望时间</label>
+                  <label for="preferred-time" data-i18n="contact.form.time.label">期望时间</label>
                   <input
                     type="text"
                     id="preferred-time"
                     name="preferred_time"
-                    placeholder="例：本周三晚 8 点后 / 周末白天"
+                    placeholder="例：本周三晚 8 点后 / 周末白天" data-i18n-placeholder="contact.form.time.placeholder"
                   />
                 </div>
               </div>
 
               <div class="field-row">
                 <div>
-                  <label for="contact">联系方式（必填其一） *</label>
+                  <label for="contact" data-i18n="contact.form.contact.label">联系方式（必填其一） *</label>
                   <input
                     type="text"
                     id="contact"
                     name="contact"
-                    placeholder="微信号 / 邮箱 / 手机号（三选一即可）"
+                    placeholder="微信号 / 邮箱 / 手机号（三选一即可）" data-i18n-placeholder="contact.form.contact.placeholder"
                     required
                   />
                   <div class="field-help">
-                    为了方便初次联系，请至少留下一个你常用的联系方式。
+                    <span data-i18n="contact.form.contact.help">为了方便初次联系，请至少留下一个你常用的联系方式。</span>
                   </div>
                 </div>
                 <div>
-                  <label for="channel">偏好沟通方式</label>
+                  <label for="channel" data-i18n="contact.form.channel.label">偏好沟通方式</label>
                   <select id="channel" name="channel">
-                    <option value="">不限，视情况安排</option>
-                    <option value="wechat">微信文字 / 语音</option>
-                    <option value="video">视频通话（微信 / Zoom / 其他）</option>
-                    <option value="in-person">线下面谈（云谷园区）</option>
-                    <option value="email">邮件往来为主</option>
+                    <option value="" data-i18n="contact.form.channel.any">不限，视情况安排</option>
+                    <option value="wechat" data-i18n="contact.form.channel.wechat">微信文字 / 语音</option>
+                    <option value="video" data-i18n="contact.form.channel.video">视频通话（微信 / Zoom / 其他）</option>
+                    <option value="in-person" data-i18n="contact.form.channel.inperson">线下面谈（云谷园区）</option>
+                    <option value="email" data-i18n="contact.form.channel.email">邮件往来为主</option>
                   </select>
                 </div>
               </div>
 
               <div>
-                <label for="topic">大致想咨询或预约的内容</label>
+                <label for="topic" data-i18n="contact.form.topic.label">大致想咨询或预约的内容</label>
                 <select id="topic" name="topic">
-                  <option value="">暂不确定 / 需要一起梳理</option>
-                  <option value="fortune">运势占卜 / 手相解读</option>
-                  <option value="language">日语 / 英语学习与考试</option>
-                  <option value="study">学习规划 / 时间管理</option>
-                  <option value="bike">自行车维修与骑行相关</option>
-                  <option value="errand">跑腿 / 个人助理服务</option>
-                  <option value="abroad">海外代购 / 信息检索</option>
-                  <option value="law">基础法律常识咨询</option>
-                  <option value="other">其他 / 组合需求</option>
+                  <option value="" data-i18n="contact.form.topic.unsure">暂不确定 / 需要一起梳理</option>
+                  <option value="fortune" data-i18n="contact.form.topic.fortune">运势占卜 / 手相解读</option>
+                  <option value="language" data-i18n="contact.form.topic.language">日语 / 英语学习与考试</option>
+                  <option value="study" data-i18n="contact.form.topic.study">学习规划 / 时间管理</option>
+                  <option value="bike" data-i18n="contact.form.topic.bike">自行车维修与骑行相关</option>
+                  <option value="errand" data-i18n="contact.form.topic.errand">跑腿 / 个人助理服务</option>
+                  <option value="abroad" data-i18n="contact.form.topic.abroad">海外代购 / 信息检索</option>
+                  <option value="law" data-i18n="contact.form.topic.law">基础法律常识咨询</option>
+                  <option value="other" data-i18n="contact.form.topic.other">其他 / 组合需求</option>
                 </select>
               </div>
 
               <div>
-                <label for="message">请简单介绍你的情况与需求 *</label>
+                <label for="message" data-i18n="contact.form.message.label">请简单介绍你的情况与需求 *</label>
                 <textarea
                   id="message"
                   name="message"
-                  placeholder="可以写下你目前的困惑、想解决的问题、相关背景信息，以及你最在意的一两个点。"
+                  placeholder="可以写下你目前的困惑、想解决的问题、相关背景信息，以及你最在意的一两个点。" data-i18n-placeholder="contact.form.message.placeholder"
                   required
                 ></textarea>
                 <div class="field-help">
-                  不需要写得很正式，只要让掌柜大致了解你在经历什么、期待得到怎样的帮助就好。
+                  <span data-i18n="contact.form.message.help">不需要写得很正式，只要让掌柜大致了解你在经历什么、期待得到怎样的帮助就好。</span>
                 </div>
               </div>
 
               <div>
-                <label for="extra">可选：预算与其他备注</label>
+                <label for="extra" data-i18n="contact.form.extra.label">可选：预算与其他备注</label>
                 <textarea
                   id="extra"
                   name="extra"
-                  placeholder="例如：大致预算范围、是否介意线上 / 线下、是否有时间或地点上的限制、是否有隐私顾虑等。"
+                  placeholder="例如：大致预算范围、是否介意线上 / 线下、是否有时间或地点上的限制、是否有隐私顾虑等。" data-i18n-placeholder="contact.form.extra.placeholder"
                 ></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary">在本地整理信息</button>
+              <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">在本地整理信息</button>
               <div class="form-status"></div>
               <p class="field-help">
-                提交后，系统会在本地校验必填项并清空表单。你可以将刚刚填写的内容复制下来，通过以下任一联系方式发送给小李万事屋。
+                <span data-i18n="contact.form.note">提交后，系统会在本地校验必填项并清空表单。你可以将刚刚填写的内容复制下来，通过以下任一联系方式发送给小李万事屋。</span>
               </p>
             </form>
           </section>
