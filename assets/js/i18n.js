@@ -1551,13 +1551,15 @@ class I18n {
   }
   
   translatePage() {
-    const elements = document.querySelectorAll('[data-i18n]');
+    // Update elements with data-i18n or data-i18n-html attribute
+    const elements = document.querySelectorAll('[data-i18n], [data-i18n-html]');
     elements.forEach(el => {
-      const key = el.getAttribute('data-i18n');
+      // Get key from either data-i18n or data-i18n-html attribute
+      const key = el.getAttribute('data-i18n') || el.getAttribute('data-i18n-html');
       const translation = this.t(key);
       
       if (translation) {
-        // Check if element should use innerHTML (for HTML content like <br>)
+        // Check if element should use innerHTML (for HTML content like <br>, <strong>)
         if (el.hasAttribute('data-i18n-html')) {
           el.innerHTML = translation;
         } else {
