@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+    <script src="/assets/js/i18n.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -22,11 +23,17 @@
           </span>
         </a>
         <nav class="nav">
-          <a href="/" class="nav-link">首页</a>
-          <a href="/services.html" class="nav-link">服务项目</a>
-          <a href="/about.html" class="nav-link">关于我们</a>
-          <a href="/faq-pricing.html" class="nav-link active">价格与常见问题</a>
-          <a href="/contact.html" class="nav-link nav-cta">联系与预约</a>
+          <a href="/" class="nav-link" data-i18n="nav.home">首页</a>
+          <a href="/services.html" class="nav-link" data-i18n="nav.services">服务项目</a>
+          <a href="/about.html" class="nav-link" data-i18n="nav.about">关于我们</a>
+          <a href="/faq-pricing.html" class="nav-link active" data-i18n="nav.faq">价格与常见问题</a>
+          <a href="/contact.html" class="nav-link nav-cta" data-i18n="nav.contact">联系与预约</a>
+          <div class="lang-selector">
+            <button class="lang-btn" data-lang="zh-CN">简中</button>
+            <button class="lang-btn" data-lang="zh-TW">繁中</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="ja">日</button>
+          </div>
         </nav>
       </div>
     </header>
@@ -239,32 +246,32 @@
               <span class="logo-sub">Xiao Li Yorozuya</span>
             </span>
           </div>
-          <p class="footer-desc">
+          <p class="footer-desc" data-i18n="footer.desc">
             由 Wentan Li 个人经营的综合生活服务工作室，位于杭州市西湖区三墩镇阿里巴巴云谷园区一号楼 D 区。
           </p>
         </div>
         <div class="footer-columns">
           <div class="footer-col">
-            <h3>快速链接</h3>
+            <h3 data-i18n="footer.quickLinks">快速链接</h3>
             <ul>
-              <li><a href="/">首页</a></li>
-              <li><a href="/services.html">服务项目</a></li>
-              <li><a href="/about.html">关于我们</a></li>
-              <li><a href="/faq-pricing.html">价格与常见问题</a></li>
-              <li><a href="/contact.html">联系与预约</a></li>
+              <li><a href="/" data-i18n="nav.home">首页</a></li>
+              <li><a href="/services.html" data-i18n="nav.services">服务项目</a></li>
+              <li><a href="/about.html" data-i18n="nav.about">关于我们</a></li>
+              <li><a href="/faq-pricing.html" data-i18n="nav.faq">价格与常见问题</a></li>
+              <li><a href="/contact.html" data-i18n="nav.contact">联系与预约</a></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h3>联系方式</h3>
+            <h3 data-i18n="footer.contact">联系方式</h3>
             <ul>
-              <li>邮箱：<a href="mailto:wentan.li@yorozuya-hz.com">wentan.li@yorozuya-hz.com</a></li>
-              <li>微信：XiaoLi_Yorozuya2025</li>
-              <li>所在地：杭州 · 西湖区 · 三墩镇 · 云谷园区</li>
+              <li><span data-i18n="footer.email">邮箱</span>：<a href="mailto:wentan.li@yorozuya-hz.com">wentan.li@yorozuya-hz.com</a></li>
+              <li><span data-i18n="footer.wechat">微信</span>：XiaoLi_Yorozuya2025</li>
+              <li><span data-i18n="footer.location">所在地</span>：<span data-i18n="common.location">杭州 · 西湖区 · 三墩镇 · 云谷园区</span></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h3>温馨提示</h3>
-            <p class="footer-note">
+            <h3 data-i18n="footer.notice">温馨提示</h3>
+            <p class="footer-note" data-i18n="footer.noticeText">
               占卜与命理相关服务仅为个人兴趣研究分享，不构成对未来结果的保证；法律相关内容仅为常识性信息与个人观点，不构成正式法律意见或律师服务。
             </p>
           </div>
@@ -272,15 +279,15 @@
       </div>
       <div class="footer-bottom">
         <div class="container footer-bottom-inner">
-          <span>© <span id="year"></span> 小李万事屋 Xiao Li Yorozuya. All rights reserved.</span>
-          <span class="footer-bottom-en">
+          <span data-i18n="footer.copyright">© <span id="year"></span> 小李万事屋 Xiao Li Yorozuya. All rights reserved.</span>
+          <span class="footer-bottom-en" data-i18n="footer.subtitle">
             Independent personal studio operated by Wentan Li in Hangzhou, China.
           </span>
         </div>
       </div>
     </footer>
 
-    <button class="back-to-top" aria-label="回到顶部">↑</button>
+    <button class="back-to-top" data-i18n-aria="common.backToTop" aria-label="回到顶部">↑</button>
     <script src="/assets/js/main.js"></script>
   </body>
   </html>
