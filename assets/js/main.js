@@ -6,6 +6,34 @@ document.addEventListener("DOMContentLoaded", () => {
     yearSpan.textContent = new Date().getFullYear().toString();
   }
 
+  // Mobile menu toggle
+  const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
+  const nav = document.querySelector(".nav");
+  
+  if (mobileMenuToggle && nav) {
+    mobileMenuToggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+      mobileMenuToggle.classList.toggle("active");
+    });
+
+    // Close mobile menu when clicking a nav link
+    const navLinks = nav.querySelectorAll(".nav-link");
+    navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("active");
+        mobileMenuToggle.classList.remove("active");
+      });
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener("click", (e) => {
+      if (!nav.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+        nav.classList.remove("active");
+        mobileMenuToggle.classList.remove("active");
+      }
+    });
+  }
+
   const backToTop = document.querySelector(".back-to-top");
   if (backToTop) {
     window.addEventListener("scroll", () => {
