@@ -165,6 +165,19 @@ const translations = {
     'services.next.title': '下一步怎么做？',
     'services.next.cta': '前往联系页面',
 
+    // About page
+    'about.hero.title': '关于小李万事屋',
+    'about.hero.breadcrumb': '关于我们',
+    
+    // FAQ page  
+    'faq.hero.title': '价格与常见问题',
+    'faq.hero.breadcrumb': '价格与常见问题',
+    
+    // 404 page
+    '404.title': '页面未找到',
+    '404.subtitle': '抱歉，你访问的页面不存在或已被移动。',
+    '404.home': '返回首页',
+
     // Services page
     'services.hero.title': '服务项目总览',
     'services.hero.subtitle': '这里列出的是常见且相对"标准化"的服务内容，实际可提供的细分服务超过 180 项。若未在列表中找到，请直接联系掌柜沟通。',
