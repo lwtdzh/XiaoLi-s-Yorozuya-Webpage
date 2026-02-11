@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>联系与预约 | 小李万事屋</title>
+    <meta
+      name="description"
+      content="通过页面中的表单与联系方式，与小李万事屋的掌柜 Wentan Li 取得联系，预约占卜、语言辅导、跑腿、代购及其他综合生活服务。"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="logo">
+          <span class="logo-mark">小李</span>
+          <span class="logo-text">
+            小李万事屋
+            <span class="logo-sub">Xiao Li Yorozuya</span>
+          </span>
+        </a>
+        <nav class="nav">
+          <a href="/" class="nav-link">首页</a>
+          <a href="/services.html" class="nav-link">服务项目</a>
+          <a href="/about.html" class="nav-link">关于我们</a>
+          <a href="/faq-pricing.html" class="nav-link">价格与常见问题</a>
+          <a href="/contact.html" class="nav-link nav-cta active">联系与预约</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>联系小李万事屋</h1>
+        <p>
+          你可以通过下方的表单，或直接添加微信 / 发送邮件与掌柜取得联系。一般会在工作日 24 小时内回复。
+        </p>
+        <div class="breadcrumbs">
+          <a href="/">首页</a> · <span>联系与预约</span>
+        </div>
+      </div>
+    </section>
+
+    <main class="page-main">
+      <div class="container layout-3col">
+        <div>
+          <section class="section" style="padding-top: 0">
+            <h2 class="section-title">在线预约意向</h2>
+            <p class="section-intro">
+              以下表单不会自动发送到任何后台系统，仅用于帮你梳理思路并进行本地校验。提交后，请将生成的信息通过微信、邮件或其他方式发送给掌柜。
+            </p>
+            <form id="contact-form">
+              <div class="field-row">
+                <div>
+                  <label for="name">你的称呼 *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="例：小王 / Haru / Lily"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="preferred-time">期望时间</label>
+                  <input
+                    type="text"
+                    id="preferred-time"
+                    name="preferred_time"
+                    placeholder="例：本周三晚 8 点后 / 周末白天"
+                  />
+                </div>
+              </div>
+
+              <div class="field-row">
+                <div>
+                  <label for="contact">联系方式（必填其一） *</label>
+                  <input
+                    type="text"
+                    id="contact"
+                    name="contact"
+                    placeholder="微信号 / 邮箱 / 手机号（三选一即可）"
+                    required
+                  />
+                  <div class="field-help">
+                    为了方便初次联系，请至少留下一个你常用的联系方式。
+                  </div>
+                </div>
+                <div>
+                  <label for="channel">偏好沟通方式</label>
+                  <select id="channel" name="channel">
+                    <option value="">不限，视情况安排</option>
+                    <option value="wechat">微信文字 / 语音</option>
+                    <option value="video">视频通话（微信 / Zoom / 其他）</option>
+                    <option value="in-person">线下面谈（云谷园区）</option>
+                    <option value="email">邮件往来为主</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="topic">大致想咨询或预约的内容</label>
+                <select id="topic" name="topic">
+                  <option value="">暂不确定 / 需要一起梳理</option>
+                  <option value="fortune">运势占卜 / 手相解读</option>
+                  <option value="language">日语 / 英语学习与考试</option>
+                  <option value="study">学习规划 / 时间管理</option>
+                  <option value="bike">自行车维修与骑行相关</option>
+                  <option value="errand">跑腿 / 个人助理服务</option>
+                  <option value="abroad">海外代购 / 信息检索</option>
+                  <option value="law">基础法律常识咨询</option>
+                  <option value="other">其他 / 组合需求</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message">请简单介绍你的情况与需求 *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="可以写下你目前的困惑、想解决的问题、相关背景信息，以及你最在意的一两个点。"
+                  required
+                ></textarea>
+                <div class="field-help">
+                  不需要写得很正式，只要让掌柜大致了解你在经历什么、期待得到怎样的帮助就好。
+                </div>
+              </div>
+
+              <div>
+                <label for="extra">可选：预算与其他备注</label>
+                <textarea
+                  id="extra"
+                  name="extra"
+                  placeholder="例如：大致预算范围、是否介意线上 / 线下、是否有时间或地点上的限制、是否有隐私顾虑等。"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">在本地整理信息</button>
+              <div class="form-status"></div>
+              <p class="field-help">
+                提交后，系统会在本地校验必填项并清空表单。你可以将刚刚填写的内容复制下来，通过以下任一联系方式发送给小李万事屋。
+              </p>
+            </form>
+          </section>
+        </div>
+
+        <aside>
+          <section class="section" style="padding-top: 0">
+            <h2 class="section-title">直接联系方式</h2>
+            <p>
+              如需快速沟通，推荐通过微信或邮件联系。由于本站为静态展示站点，暂不提供在线聊天功能。
+            </p>
+            <ul class="info-list">
+              <li>
+                <span class="info-label">邮箱</span>
+                <span class="info-value">
+                  <a href="mailto:xiaoli.yorozuya@example.com"
+                    >xiaoli.yorozuya@example.com</a
+                  >
+                </span>
+              </li>
+              <li>
+                <span class="info-label">微信</span>
+                <span class="info-value">
+                  出于防止骚扰的考虑，微信号不在网页上公开展示。请先通过邮件或表单说明来意，掌柜会在回复中提供添加方式。
+                </span>
+              </li>
+              <li>
+                <span class="info-label">位置</span>
+                <span class="info-value">杭州市西湖区三墩镇 · 阿里巴巴云谷园区一号楼 D 区</span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" style="padding-top: 0">
+            <h2 class="section-title">营业时间与回复节奏</h2>
+            <ul class="info-list">
+              <li>
+                <span class="info-label">工作日</span>
+                <span class="info-value">10:00 - 20:00（其余时间视情况回复）</span>
+              </li>
+              <li>
+                <span class="info-label">周末</span>
+                <span class="info-value">以预约为主，如有空档会安排补课与跑腿</span>
+              </li>
+              <li>
+                <span class="info-label">回复</span>
+                <span class="info-value">一般在 24 小时内回复，如遇特殊情况会提前说明</span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" style="padding-top: 0">
+            <h2 class="section-title">到店与线上说明</h2>
+            <p>
+              若你在云谷园区或附近工作/生活，可在预约时注明“希望线下面谈”，掌柜会结合当天情况安排合适的见面地点与时间。
+            </p>
+            <p style="margin-top: 0.5rem">
+              对于大多数咨询、占卜与语言课程，线上体验与线下差异不大，且时间安排更灵活；涉及维修与跑腿的项目，则以线下为主。
+            </p>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-mark">小李</span>
+            <span class="logo-text">
+              小李万事屋
+              <span class="logo-sub">Xiao Li Yorozuya</span>
+            </span>
+          </div>
+          <p class="footer-desc">
+            由 Wentan Li 个人经营的综合生活服务工作室，位于杭州市西湖区三墩镇阿里巴巴云谷园区一号楼 D 区。
+          </p>
+        </div>
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h3>快速链接</h3>
+            <ul>
+              <li><a href="/">首页</a></li>
+              <li><a href="/services.html">服务项目</a></li>
+              <li><a href="/about.html">关于我们</a></li>
+              <li><a href="/faq-pricing.html">价格与常见问题</a></li>
+              <li><a href="/contact.html">联系与预约</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>联系方式</h3>
+            <ul>
+              <li>邮箱：<a href="mailto:xiaoli.yorozuya@example.com">xiaoli.yorozuya@example.com</a></li>
+              <li>微信：添加后提供（请在预约表单中备注）</li>
+              <li>所在地：杭州 · 西湖区 · 三墩镇 · 云谷园区</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>温馨提示</h3>
+            <p class="footer-note">
+              占卜与命理相关服务仅为个人兴趣研究分享，不构成对未来结果的保证；法律相关内容仅为常识性信息与个人观点，不构成正式法律意见或律师服务。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <span>© <span id="year"></span> 小李万事屋 Xiao Li Yorozuya. All rights reserved.</span>
+          <span class="footer-bottom-en">
+            Independent personal studio operated by Wentan Li in Hangzhou, China.
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="回到顶部">↑</button>
+    <script src="/assets/js/main.js"></script>
+  </body>
+  </html>
+
