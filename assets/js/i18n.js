@@ -176,6 +176,7 @@ const translations = {
     'contact.sidebar.intro': '如果你已经大致想好要咨询什么，可以跳过表单，直接添加微信或发送邮件。',
     'contact.sidebar.wechat.label': '微信',
     'contact.sidebar.wechat.note': '请添加时备注"网站预约"',
+    'contact.sidebar.wechat.value': 'changqi_sushi（请添加时备注"网站预约"）',
     'contact.sidebar.email.label': '邮箱',
     'contact.sidebar.location.label': '所在地',
     'contact.sidebar.hours.label': '营业时间',
