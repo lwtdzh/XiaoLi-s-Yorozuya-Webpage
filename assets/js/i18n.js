@@ -837,6 +837,92 @@ const translations = {
     '404.title': '頁面未找到',
     '404.subtitle': '抱歉，你訪問的頁面不存在或已被移動。',
     '404.home': '返回首頁',
+    '404.contact': '前往聯繫與預約',
+
+    // Contact page additional keys
+    'contact.sidebar.wechat.value': 'XiaoLi_Yorozuya2025（請添加時備註"網站預約"）',
+    'contact.sidebar.location.value': '杭州市西湖區三墩鎮 · 阿里巴巴雲谷園區一號樓 D 區',
+    'contact.sidebar.visit.p1': '若你在雲谷園區或附近工作/生活，可在預約時註明"希望線下面談"，掌櫃會結合當天情況安排合適的見面地點與時間。',
+    
+    // FAQ & Pricing page keys
+    'faq.hero.intro': '這裡列出的是部分服務的參考價格與常見問答。具體費用會根據你的實際情況與服務組合給出明確報價。',
+    
+    // Pricing section
+    'faq.pricing.title': '參考價格區間',
+    'faq.pricing.intro': '以下為常見服務類型的參考價格區間（人民幣）。若你的需求比較特殊，可以先簡要描述情況，再一起討論最合適的方案與預算。',
+    'faq.table.serviceType': '服務類型',
+    'faq.table.description': '說明',
+    'faq.table.priceRange': '參考價格區間',
+    'faq.table.row1.type': '運勢占卜 / 手相解讀',
+    'faq.table.row1.desc': '單次會談，約 45~60 分鐘，可線上或線下進行',
+    'faq.table.row1.price': '¥ 168 ~ ¥ 268 / 次',
+    'faq.table.row2.type': '日語 / 英語一對一輔導',
+    'faq.table.row2.desc': '按課時計費，可購買多次課獲得優惠',
+    'faq.table.row2.price': '¥ 160 ~ ¥ 260 / 90 分鐘',
+    'faq.table.row3.type': '學習規劃與方法諮詢',
+    'faq.table.row3.desc': '含前期問卷與後續書面總結',
+    'faq.table.row3.price': '¥ 280 ~ ¥ 480 / 項目',
+    'faq.table.row4.type': '自行車基礎維修',
+    'faq.table.row4.desc': '不含零件更換成本，按項目與耗時計費',
+    'faq.table.row4.price': '¥ 40 ~ ¥ 180 / 次',
+    'faq.table.row5.type': '跑腿與個人助理服務',
+    'faq.table.row5.desc': '雲谷園區及周邊，含代取件、代排隊等',
+    'faq.table.row5.price': '¥ 40 起 / 次 或 ¥ 80 起 / 小時',
+    'faq.table.row6.type': '海外代購與轉運協助',
+    'faq.table.row6.desc': '服務費+實際商品與運費成本，透明列出',
+    'faq.table.row6.price': '視訂單金額與複雜度協商，一般為商品金額的 5%~12%',
+    'faq.table.row7.type': '基礎法律常識諮詢',
+    'faq.table.row7.desc': '不含律師服務，側重信息查找與思路整理',
+    'faq.table.row7.price': '¥ 180 ~ ¥ 380 / 次',
+    'faq.pricing.notice': '以上價格為參考範圍，不同客戶的具體需求差異較大，正式服務前會給出清晰的報價與方案，雙方確認後再開始執行。',
+    
+    // FAQ questions and answers
+    'faq.faq.title': '常見問題 FAQ',
+    'faq.faq.q1.question': 'Q：第一次聯繫，需要準備些什麼？',
+    'faq.faq.q1.answer': 'A：不需要準備太多材料，只需簡單介紹自己目前的情況，以及你希望得到怎樣的幫助即可。如果方便，也可以提前寫幾段文字發過來，便於掌櫃做初步了解。',
+    'faq.faq.q2.question': 'Q：可以只諮詢一下，不立刻下單嗎？',
+    'faq.faq.q2.answer': 'A：可以。對大多數項目來說，<strong>第一次簡短溝通是不收費的</strong>，目的是確認你的需求與小李萬事屋是否匹配。如果確實不適合，會如實說明，並在力所能及範圍內給出其他建議。',
+    'faq.faq.q3.question': 'Q：占卜和命理部分，會不會「玄學過頭」？',
+    'faq.faq.q3.answer': 'A：不會刻意營造恐懼或依賴感，也不會給出類似「你必須馬上做 XX，否則會怎樣」的結論。更多是用符號和結構幫助你看到自己當下的狀態，從而做出更符合內心的選擇。',
+    'faq.faq.q4.question': 'Q：語言課是偏應試還是偏實用？',
+    'faq.faq.q4.answer': 'A：取決於你的目標。對於考試（如 JLPT 或某些英語測評），會有相應的刷題與技巧訓練；對於工作與生活交流，則會更多圍繞真實語境設計練習內容，鼓勵你在課外主動使用。',
+    'faq.faq.q5.question': 'Q：付款方式有哪些？可以開發票嗎？',
+    'faq.faq.q5.answer': 'A：支持支付寶、微信、銀聯、VISA、PayPal 等多種方式。由於為個體小型商戶，可根據具體項目提供相應收款憑證或簡易收據，如需更正式的票據可在溝通時提前說明，由掌櫃評估可行性。',
+    'faq.faq.q6.question': 'Q：我人在外地 / 海外，還能使用這些服務嗎？',
+    'faq.faq.q6.answer': 'A：絕大部分與諮詢、占卜、語言學習、信息檢索相關的服務都支持遠程形式，只要網絡與時差允許即可。涉及跑腿與線下維修的項目，則主要面向杭州本地及雲谷園區周邊。',
+    'faq.faq.q7.question': 'Q：如果對服務不滿意怎麼辦？',
+    'faq.faq.q7.answer': 'A：非常歡迎在過程中及時提出你的真實感受。如果是因為溝通不到位或預期理解有偏差，會優先考慮補充說明與調整方案；如確屬小李萬事屋的問題，將視情況部分或全額退款。具體細節會在服務前以文字形式確認。',
+    
+    // Payment section
+    'faq.payment.title': '支付方式',
+    'faq.payment.domestic.label': '國內',
+    'faq.payment.domestic.value': '支付寶、微信支付、銀聯卡轉賬、雲閃付',
+    'faq.payment.intl.label': '國際',
+    'faq.payment.intl.value': 'VISA / MasterCard 信用卡、PayPal',
+    'faq.payment.currency.label': '幣種',
+    'faq.payment.currency.value': '人民幣為主，可按當日匯率折算其他貨幣',
+    'faq.payment.note': '若你所在地區不支持上述方式，也可以在溝通時說明，由掌櫃協助尋找替代渠道。',
+    
+    // Booking rules
+    'faq.booking.title': '預約與取消規則',
+    'faq.booking.book.label': '預約',
+    'faq.booking.book.value': '盡量提前 1~3 天預約，緊急情況可備註說明',
+    'faq.booking.reschedule.label': '改期',
+    'faq.booking.reschedule.value': '如需改期，請盡量提前 12 小時通知',
+    'faq.booking.late.label': '遲到',
+    'faq.booking.late.value': '一般可接受 10 分鐘內遲到，超出可能會壓縮服務時長',
+    'faq.booking.cancel.label': '取消',
+    'faq.booking.cancel.value': '臨時取消會視情況收取一定比例的時間佔用費用',
+    
+    // Privacy section
+    'faq.privacy.title': '隱私與保密',
+    'faq.privacy.p1': '小李萬事屋非常重視你的隱私與信息安全，除法律法規另有規定或你本人明確授權外，不會向第三方洩露你的個人信息、聯繫方式或服務內容細節。',
+    'faq.privacy.p2': '若你對隱私有特殊要求（例如不希望記錄通話、對敏感話題特別謹慎等），可以在溝通一開始就直接說明。',
+    
+    // More questions
+    'faq.more.title': '還有其他問題？',
+    'faq.more.text': '如果以上內容仍然沒有覆蓋到你的疑問，歡迎直接發消息告訴掌櫃你最關心的那一兩點，我們會盡可能在 24 小時內給出明確回復。',
+    'faq.more.cta': '前往聯繫與預約',
   },
   
   'en': {
@@ -1047,6 +1133,96 @@ const translations = {
     'about.vision.title': 'A Personal Vision',
     'about.vision.p1': 'Hope that the future Xiao Li Yorozuya can become a familiar "life fulcrum" for people in Yungu Campus and more cities—when you feel helpless, out of time, or just need an objective perspective, you will naturally think:',
     'about.vision.p2': '"Why not, ask Xiao Li first."',
+
+    // Contact page additional keys
+    'contact.sidebar.wechat.value': 'XiaoLi_Yorozuya2025 (Please note "Website Booking" when adding)',
+    'contact.sidebar.location.value': 'Building 1 Zone D, Alibaba Yungu Campus, Sandun Town, Xihu District, Hangzhou',
+    'contact.sidebar.visit.p1': 'If you work/live in or near Yungu Campus, you can note "prefer in-person meeting" when booking, and the owner will arrange a suitable meeting location and time based on the day\'s schedule.',
+
+    // FAQ & Pricing page keys
+    'faq.hero.intro': 'Here are reference prices for some services and common Q&A. Specific fees will be quoted clearly based on your actual situation and service combination.',
+    
+    // Pricing section
+    'faq.pricing.title': 'Reference Price Range',
+    'faq.pricing.intro': 'Below are reference price ranges for common service types (RMB). If your needs are special, briefly describe your situation first, then we can discuss the most suitable plan and budget together.',
+    'faq.table.serviceType': 'Service Type',
+    'faq.table.description': 'Description',
+    'faq.table.priceRange': 'Reference Price Range',
+    'faq.table.row1.type': 'Fortune Divination / Palm Reading',
+    'faq.table.row1.desc': 'Single session, about 45~60 minutes, can be conducted online or offline',
+    'faq.table.row1.price': '¥ 168 ~ ¥ 268 / session',
+    'faq.table.row2.type': 'Japanese / English One-on-One Tutoring',
+    'faq.table.row2.desc': 'Charged per lesson, discounts available for multiple lessons',
+    'faq.table.row2.price': '¥ 160 ~ ¥ 260 / 90 minutes',
+    'faq.table.row3.type': 'Study Planning & Method Consultation',
+    'faq.table.row3.desc': 'Includes initial questionnaire and follow-up written summary',
+    'faq.table.row3.price': '¥ 280 ~ ¥ 480 / project',
+    'faq.table.row4.type': 'Basic Bicycle Repair',
+    'faq.table.row4.desc': 'Excluding parts replacement costs, charged by project and time',
+    'faq.table.row4.price': '¥ 40 ~ ¥ 180 / session',
+    'faq.table.row5.type': 'Errand & Personal Assistant Services',
+    'faq.table.row5.desc': 'Yungu Campus and surrounding areas, including package pickup, queuing, etc.',
+    'faq.table.row5.price': 'From ¥ 40 / session or From ¥ 80 / hour',
+    'faq.table.row6.type': 'Overseas Shopping & Forwarding Assistance',
+    'faq.table.row6.desc': 'Service fee + actual product and shipping costs, transparently listed',
+    'faq.table.row6.price': 'Negotiated based on order amount and complexity, generally 5%~12% of product value',
+    'faq.table.row7.type': 'Basic Legal Knowledge Consultation',
+    'faq.table.row7.desc': 'Not including lawyer services, focused on information search and thought organization',
+    'faq.table.row7.price': '¥ 180 ~ ¥ 380 / session',
+    'faq.pricing.notice': 'Above prices are reference ranges; specific client needs vary greatly. Clear quotes and plans will be provided before formal service begins, confirmed by both parties before execution.',
+    
+    // FAQ questions and answers
+    'faq.faq.title': 'Frequently Asked Questions',
+    'faq.faq.q1.question': 'Q: What do I need to prepare for the first contact?',
+    'faq.faq.q1.answer': 'A: You don\'t need to prepare too much material, just briefly introduce your current situation and what kind of help you hope to receive. If convenient, you can also write a few paragraphs in advance and send them over to facilitate the owner\'s preliminary understanding.',
+    'faq.faq.q2.question': 'Q: Can I just consult without placing an order immediately?',
+    'faq.faq.q2.answer': 'A: Yes. For most projects, <strong>the first brief consultation is free</strong>, with the goal of confirming whether your needs match Xiao Li Yorozuya\'s services. If it\'s not suitable, this will be honestly explained, and other suggestions will be given within our capabilities.',
+    'faq.faq.q3.question': 'Q: Won\'t the fortune-telling and divination parts be "too superstitious"?',
+    'faq.faq.q3.answer': 'A: We don\'t deliberately create fear or dependence, nor give conclusions like "You must do XX immediately or something bad will happen." It\'s more about using symbols and structures to help you see your current state, thus making choices more aligned with your inner self.',
+    'faq.faq.q4.question': 'Q: Are language classes exam-focused or practical?',
+    'faq.faq.q4.answer': 'A: It depends on your goals. For exams (such as JLPT or certain English assessments), there will be corresponding practice and technique training; for work and daily communication, content will be designed around real contexts to encourage active use outside of class.',
+    'faq.faq.q5.question': 'Q: What payment methods are available? Can I get an invoice?',
+    'faq.faq.q5.answer': 'A: We support Alipay, WeChat Pay, UnionPay, VISA, PayPal, and various other methods. As a small individual merchant, we can provide corresponding payment receipts or simple receipts based on specific projects. If you need more formal documents, please mention this in advance during communication for the owner to assess feasibility.',
+    'faq.faq.q6.question': 'Q: I\'m out of town / overseas. Can I still use these services?',
+    'faq.faq.q6.answer': 'A: The vast majority of consultation, divination, language learning, and information retrieval-related services support remote formats, as long as internet and time differences allow. Errands and offline repair projects are mainly aimed at local Hangzhou and Yungu Campus surrounding areas.',
+    'faq.faq.q7.question': 'Q: What if I\'m not satisfied with the service?',
+    'faq.faq.q7.answer': 'A: You are very welcome to share your honest feelings promptly during the process. If it\'s due to poor communication or misaligned expectations, supplementary explanations and adjusted plans will be prioritized; if it\'s indeed Xiao Li Yorozuya\'s issue, partial or full refunds will be considered depending on the situation. Specific details will be confirmed in writing before service begins.',
+    
+    // Payment section
+    'faq.payment.title': 'Payment Methods',
+    'faq.payment.domestic.label': 'Domestic',
+    'faq.payment.domestic.value': 'Alipay, WeChat Pay, UnionPay card transfer, QuickPass',
+    'faq.payment.intl.label': 'International',
+    'faq.payment.intl.value': 'VISA / MasterCard credit card, PayPal',
+    'faq.payment.currency.label': 'Currency',
+    'faq.payment.currency.value': 'Mainly RMB, other currencies convertible at daily exchange rate',
+    'faq.payment.note': 'If the above methods are not supported in your region, please mention this during communication, and the owner will assist in finding alternative channels.',
+    
+    // Booking rules
+    'faq.booking.title': 'Booking & Cancellation Rules',
+    'faq.booking.book.label': 'Booking',
+    'faq.booking.book.value': 'Please book 1~3 days in advance, emergencies can be noted',
+    'faq.booking.reschedule.label': 'Reschedule',
+    'faq.booking.reschedule.value': 'If rescheduling is needed, please notify at least 12 hours in advance',
+    'faq.booking.late.label': 'Late Arrival',
+    'faq.booking.late.value': 'Generally accept arrivals within 10 minutes late, exceeding may compress service duration',
+    'faq.booking.cancel.label': 'Cancellation',
+    'faq.booking.cancel.value': 'Last-minute cancellations may incur proportional time occupancy fees depending on situation',
+    
+    // Privacy section
+    'faq.privacy.title': 'Privacy & Confidentiality',
+    'faq.privacy.p1': 'Xiao Li Yorozuya highly values your privacy and information security. Except where laws and regulations require or you explicitly authorize, your personal information, contact details, or service content details will not be disclosed to third parties.',
+    'faq.privacy.p2': 'If you have special privacy requirements (such as not wanting calls recorded, being particularly cautious about sensitive topics, etc.), please state this directly at the beginning of communication.',
+    
+    // More questions
+    'faq.more.title': 'Still Have Questions?',
+    'faq.more.text': 'If the above content still hasn\'t covered your questions, feel free to send a message telling the owner the one or two things you care about most, and we\'ll try to give a clear response within 24 hours.',
+    'faq.more.cta': 'Go to Contact & Booking',
+    
+    // 404 page
+    '404.home': 'Back to Home',
+    '404.contact': 'Contact & Book',
+
     'faq.hero.title': 'FAQ & Pricing',
     'faq.hero.breadcrumb': 'FAQ & Pricing',
     'contact.sidebar.visit.title': 'In-Person & Online Info',
@@ -1394,6 +1570,96 @@ const translations = {
     'about.vision.title': '個人的なビジョン',
     'about.vision.p1': '将来の小李万事屋が、雲谷キャンパスやより多くの都市で人々が馴染みのある「生活の支点」になることを望んでいます—孤独を感じたり、時間が足りなかったり、または客観的な視点が必要なときに、自然に思い出すでしょう：',
     'about.vision.p2': '「小李に聞いてみようか。」',
+
+    // Contact page additional keys
+    'contact.sidebar.wechat.value': 'XiaoLi_Yorozuya2025（追加時「ウェブサイト予約」と備考をお願いします）',
+    'contact.sidebar.location.value': '杭州市西湖区三墩鎮・アリババ雲谷キャンパス1号棟 D 区',
+    'contact.sidebar.visit.p1': '雲谷キャンパスまたは近隣でお勤め/お住まいの場合は、予約時に「対面希望」とご記入ください。オーナーがその日のスケジュールに応じて適切な会場と時間を手配いたします。',
+
+    // FAQ & Pricing page keys
+    'faq.hero.intro': 'これは一部のサービスの参考価格とよくある質問をリストしています。具体的な料金は、実際の状況とサービスの組み合わせに基づいて明確に見積もられます。',
+    
+    // Pricing section
+    'faq.pricing.title': '参考価格帯',
+    'faq.pricing.intro': '以下は一般的なサービスタイプの参考価格帯です（人民元）。ニーズが特別な場合は、まず状況を簡単に説明し、最適なプランと予算について一緒に検討してください。',
+    'faq.table.serviceType': 'サービスタイプ',
+    'faq.table.description': '説明',
+    'faq.table.priceRange': '参考価格帯',
+    'faq.table.row1.type': '運勢占い / 手相解読',
+    'faq.table.row1.desc': '1回の会談、約45～60分、オンラインまたはオフラインで実施可能',
+    'faq.table.row1.price': '¥ 168 ~ ¥ 268 / 回',
+    'faq.table.row2.type': '日本語 / 英語マンツーマン指導',
+    'faq.table.row2.desc': 'レッスンごとに課金、複数回購入で割引あり',
+    'faq.table.row2.price': '¥ 160 ~ ¥ 260 / 90分',
+    'faq.table.row3.type': '学習計画・方法相談',
+    'faq.table.row3.desc': '初期アンケートとフォローアップ書面サマリー含む',
+    'faq.table.row3.price': '¥ 280 ~ ¥ 480 / プロジェクト',
+    'faq.table.row4.type': '自転車基本修理',
+    'faq.table.row4.desc': '部品交換コストは含まれず、プロジェクトと時間に応じて課金',
+    'faq.table.row4.price': '¥ 40 ~ ¥ 180 / 回',
+    'faq.table.row5.type': 'お使い・パーソナルアシスタントサービス',
+    'faq.table.row5.desc': '雲谷キャンパスおよび周辺、荷物受け取り、列並びなど含む',
+    'faq.table.row5.price': '¥ 40〜 / 回 または ¥ 80〜 / 時間',
+    'faq.table.row6.type': '海外代行購入・転送支援',
+    'faq.table.row6.desc': 'サービス料＋実際の商品と送料コスト、透明に提示',
+    'faq.table.row6.price': '注文金額と複雑さに応じて協議、一般的に商品金額の5％～12％',
+    'faq.table.row7.type': '基礎的法律知識相談',
+    'faq.table.row7.desc': '弁護士サービスは含まれず、情報検索と思考整理に重点',
+    'faq.table.row7.price': '¥ 180 ~ ¥ 380 / 回',
+    'faq.pricing.notice': '上記の価格は参考範囲です。クライアントの具体的なニーズは大きく異なります。正式なサービス開始前に明確な見積もりとプランを提示し、双方が確認してから実行します。',
+    
+    // FAQ questions and answers
+    'faq.faq.title': 'よくある質問 FAQ',
+    'faq.faq.q1.question': 'Q：初回連絡時、何を準備すればいいですか？',
+    'faq.faq.q1.answer': 'A：多くの資料を準備する必要はありません。現在の状況とどのような助けを望んでいるかを簡単に紹介するだけで大丈夫です。ご都合がよろしければ、事前に数段落書いて送っていただくと、オーナーの事前理解の助けになります。',
+    'faq.faq.q2.question': 'Q：相談のみで、すぐに注文しなくてもいいですか？',
+    'faq.faq.q2.answer': 'A：はい。ほとんどのプロジェクトについて、<strong>初回の簡潔な相談は無料です</strong>。目的はお客様のニーズと小李万事屋がマッチするか確認することです。適合しない場合は正直にお伝えし、できる範囲で他の提案をいたします。',
+    'faq.faq.q3.question': 'Q：占い・命理の部分は「怪しすぎる」のでは？',
+    'faq.faq.q3.answer': 'A：恐怖や依存感を意図的に作り出したり、「今すぐXXしないとこうなる」といった結論を出したりすることはありません。シンボルと構造を使って現在の状態を把握する助けになり、より自分らしい選択ができるようになることが目的です。',
+    'faq.faq.q4.question': 'Q：言語クラスは試験対策ですか、それとも実用的ですか？',
+    'faq.faq.q4.answer': 'A：あなたの目標によります。試験（JLPTや特定の英語テストなど）の場合は、対応する演習とテクニックトレーニングがあります。仕事や日常生活でのコミュニケーションの場合は、実際のコンテキストを中心に練習内容を設計し、課外でも積極的に使うことを促進します。',
+    'faq.faq.q5.question': 'Q：支払い方法は何がありますか？領収書は発行できますか？',
+    'faq.faq.q5.answer': 'A：Alipay、WeChat Pay、銀聯、VISA、PayPalなど、さまざまな方法に対応しています。個人の小規模事業者として、具体的なプロジェクトに応じて支払い領収書または簡易領収書を提供できます。より正式な書類が必要な場合は、連絡時に事前にお申し出ください。オーナーが実行可能性を評価します。',
+    'faq.faq.q6.question': 'Q：地方/海外に住んでいますが、これらのサービスは利用できますか？',
+    'faq.faq.q6.answer': 'A：相談、占い、言語学習、情報検索関連のサービスの大半は、インターネットと時差が許せばリモート形式に対応しています。お使いやオフライン修理に関するプロジェクトは、主に杭州ローカルおよび雲谷キャンパス周辺を対象としています。',
+    'faq.faq.q7.question': 'Q：サービスに満足できない場合はどうなりますか？',
+    'faq.faq.q7.answer': 'A：プロセス中に率直な感想をお聞かせいただけると幸いです。コミュニケーション不足や期待値の齟齬による場合は、補足説明とプラン調整を優先します。小李万事屋側の問題である場合は、状況に応じて部分的または全額の返金を検討します。具体的な詳細は、サービス開始前に文書で確認します。',
+    
+    // Payment section
+    'faq.payment.title': '支払い方法',
+    'faq.payment.domestic.label': '国内',
+    'faq.payment.domestic.value': 'Alipay、WeChat Pay、銀聯カード振込、QuickPass',
+    'faq.payment.intl.label': '国際',
+    'faq.payment.intl.value': 'VISA / MasterCardクレジットカード、PayPal',
+    'faq.payment.currency.label': '通貨',
+    'faq.payment.currency.value': '主に人民元、その日の為替レートで他通貨にも換算可能',
+    'faq.payment.note': 'お住まいの地域で上記の方法に対応していない場合は、連絡時にお知らせください。オーナーが代替手段の検索をお手伝いします。',
+    
+    // Booking rules
+    'faq.booking.title': '予約・キャンセル規則',
+    'faq.booking.book.label': '予約',
+    'faq.booking.book.value': 'できるだけ1～3日前に予約、緊急時は備考欄に記載',
+    'faq.booking.reschedule.label': '変更',
+    'faq.booking.reschedule.value': '変更が必要な場合は、できるだけ12時間前にご連絡ください',
+    'faq.booking.late.label': '遅刻',
+    'faq.booking.late.value': '一般的に10分以内の遅刻は許容、超過はサービス時間が短縮される場合があります',
+    'faq.booking.cancel.label': 'キャンセル',
+    'faq.booking.cancel.value': '直前のキャンセルは、状況に応じて時間占有料が発生する場合があります',
+    
+    // Privacy section
+    'faq.privacy.title': 'プライバシーと機密保持',
+    'faq.privacy.p1': '小李万事屋はお客様のプライバシーと情報セキュリティを非常に重視しています。法律や規制に別段の定めがある場合、またはお客様本人が明確に承認した場合を除き、個人情報、連絡先、サービス内容の詳細を第三者に開示することはありません。',
+    'faq.privacy.p2': 'プライバシーに関して特別な要件がある場合（例：通話を記録したくない、敏感な話題に特に慎重など）、連絡開始時に直接お申し出ください。',
+    
+    // More questions
+    'faq.more.title': 'その他のご質問は？',
+    'faq.more.text': '上記の内容でも疑問が解決しない場合は、遠慮なくメッセージで最も気になっている1〜2点をお知らせください。24時間以内に明確な回答をお届けできるよう努めます。',
+    'faq.more.cta': 'お問い合わせ・予約へ',
+    
+    // 404 page
+    '404.home': 'ホームに戻る',
+    '404.contact': 'お問い合わせ・予約',
+
     'contact.form.channel.any': '指定なし、状況に応じて調整',
     'contact.form.channel.email': '主にメールで',
     'contact.form.channel.inperson': '対面（雲谷キャンパス）',
@@ -1569,8 +1835,93 @@ const translations = {
     'services.next.intro': '具体的な項目を選ぶ必要はありません。まず「お問い合わせと予約」ページで状況と目標を簡単に説明し、残りはオーナーにお任せください。',
     'services.next.cta': 'お問い合わせと予約へ',
 
-    // Missing 404 key
     '404.home': 'ホームに戻る',
+    '404.contact': 'お問い合わせ・予約',
+
+    // FAQ & Pricing page keys (Simplified Chinese as base)
+    'faq.hero.intro': '这里列出的是部分服务的参考价格与常见问答。具体费用会根据你的实际情况与服务组合给出明确报价。',
+    
+    // Pricing section
+    'faq.pricing.title': '参考价格区间',
+    'faq.pricing.intro': '以下为常见服务类型的参考价格区间（人民币）。若你的需求比较特殊，可以先简要描述情况，再一起讨论最合适的方案与预算。',
+    'faq.table.serviceType': '服务类型',
+    'faq.table.description': '说明',
+    'faq.table.priceRange': '参考价格区间',
+    'faq.table.row1.type': '运势占卜 / 手相解读',
+    'faq.table.row1.desc': '单次会谈，约 45~60 分钟，可线上或线下进行',
+    'faq.table.row1.price': '¥ 168 ~ ¥ 268 / 次',
+    'faq.table.row2.type': '日语 / 英语一对一辅导',
+    'faq.table.row2.desc': '按课时计费，可购买多次课获得优惠',
+    'faq.table.row2.price': '¥ 160 ~ ¥ 260 / 90 分钟',
+    'faq.table.row3.type': '学习规划与方法咨询',
+    'faq.table.row3.desc': '含前期问卷与后续书面总结',
+    'faq.table.row3.price': '¥ 280 ~ ¥ 480 / 项目',
+    'faq.table.row4.type': '自行车基础维修',
+    'faq.table.row4.desc': '不含零件更换成本，按项目与耗时计费',
+    'faq.table.row4.price': '¥ 40 ~ ¥ 180 / 次',
+    'faq.table.row5.type': '跑腿与个人助理服务',
+    'faq.table.row5.desc': '云谷园区及周边，含代取件、代排队等',
+    'faq.table.row5.price': '¥ 40 起 / 次 或 ¥ 80 起 / 小时',
+    'faq.table.row6.type': '海外代购与转运协助',
+    'faq.table.row6.desc': '服务费+实际商品与运费成本，透明列出',
+    'faq.table.row6.price': '视订单金额与复杂度协商，一般为商品金额的 5%~12%',
+    'faq.table.row7.type': '基础法律常识咨询',
+    'faq.table.row7.desc': '不含律师服务，侧重信息查找与思路整理',
+    'faq.table.row7.price': '¥ 180 ~ ¥ 380 / 次',
+    'faq.pricing.notice': '以上价格为参考范围，不同客户的具体需求差异较大，正式服务前会给出清晰的报价与方案，双方确认后再开始执行。',
+    
+    // FAQ questions and answers
+    'faq.faq.title': '常见问题 FAQ',
+    'faq.faq.q1.question': 'Q：第一次联系，需要准备些什么？',
+    'faq.faq.q1.answer': 'A：不需要准备太多材料，只需简单介绍自己目前的情况，以及你希望得到怎样的帮助即可。如果方便，也可以提前写几段文字发过来，便于掌柜做初步了解。',
+    'faq.faq.q2.question': 'Q：可以只咨询一下，不立刻下单吗？',
+    'faq.faq.q2.answer': 'A：可以。对大多数项目来说，<strong>第一次简短沟通是不收费的</strong>，目的是确认你的需求与小李万事屋是否匹配。如果确实不适合，会如实说明，并在力所能及范围内给出其他建议。',
+    'faq.faq.q3.question': 'Q：占卜和命理部分，会不会"玄学过头"？',
+    'faq.faq.q3.answer': 'A：不会刻意营造恐惧或依赖感，也不会给出类似"你必须马上做 XX，否则会怎样"的结论。更多是用符号和结构帮助你看到自己当下的状态，从而做出更符合内心的选择。',
+    'faq.faq.q4.question': 'Q：语言课是偏应试还是偏实用？',
+    'faq.faq.q4.answer': 'A：取决于你的目标。对于考试（如 JLPT 或某些英语测评），会有相应的刷题与技巧训练；对于工作与生活交流，则会更多围绕真实语境设计练习内容，鼓励你在课外主动使用。',
+    'faq.faq.q5.question': 'Q：付款方式有哪些？可以开发票吗？',
+    'faq.faq.q5.answer': 'A：支持支付宝、微信、银联、VISA、PayPal 等多种方式。由于为个体小型商户，可根据具体项目提供相应收款凭证或简易收据，如需更正式的票据可在沟通时提前说明，由掌柜评估可行性。',
+    'faq.faq.q6.question': 'Q：我人在外地 / 海外，还能使用这些服务吗？',
+    'faq.faq.q6.answer': 'A：绝大部分与咨询、占卜、语言学习、信息检索相关的服务都支持远程形式，只要网络与时差允许即可。涉及跑腿与线下维修的项目，则主要面向杭州本地及云谷园区周边。',
+    'faq.faq.q7.question': 'Q：如果对服务不满意怎么办？',
+    'faq.faq.q7.answer': 'A：非常欢迎在过程中及时提出你的真实感受。如果是因为沟通不到位或预期理解有偏差，会优先考虑补充说明与调整方案；如确属小李万事屋的问题，将视情况部分或全额退款。具体细节会在服务前以文字形式确认。',
+    
+    // Payment section
+    'faq.payment.title': '支付方式',
+    'faq.payment.domestic.label': '国内',
+    'faq.payment.domestic.value': '支付宝、微信支付、银联卡转账、云闪付',
+    'faq.payment.intl.label': '国际',
+    'faq.payment.intl.value': 'VISA / MasterCard 信用卡、PayPal',
+    'faq.payment.currency.label': '币种',
+    'faq.payment.currency.value': '人民币为主，可按当日汇率折算其他货币',
+    'faq.payment.note': '若你所在地区不支持上述方式，也可以在沟通时说明，由掌柜协助寻找替代渠道。',
+    
+    // Booking rules
+    'faq.booking.title': '预约与取消规则',
+    'faq.booking.book.label': '预约',
+    'faq.booking.book.value': '尽量提前 1~3 天预约，紧急情况可备注说明',
+    'faq.booking.reschedule.label': '改期',
+    'faq.booking.reschedule.value': '如需改期，请尽量提前 12 小时通知',
+    'faq.booking.late.label': '迟到',
+    'faq.booking.late.value': '一般可接受 10 分钟内迟到，超出可能会压缩服务时长',
+    'faq.booking.cancel.label': '取消',
+    'faq.booking.cancel.value': '临时取消会视情况收取一定比例的时间占用费用',
+    
+    // Privacy section
+    'faq.privacy.title': '隐私与保密',
+    'faq.privacy.p1': '小李万事屋非常重视你的隐私与信息安全，除法律法规另有规定或你本人明确授权外，不会向第三方泄露你的个人信息、联系方式或服务内容细节。',
+    'faq.privacy.p2': '若你对隐私有特殊要求（例如不希望记录通话、对敏感话题特别谨慎等），可以在沟通一开始就直接说明。',
+    
+    // More questions
+    'faq.more.title': '还有其他问题？',
+    'faq.more.text': '如果以上内容仍然没有覆盖到你的疑问，欢迎直接发消息告诉掌柜你最关心的那一两点，我们会尽可能在 24 小时内给出明确回复。',
+    'faq.more.cta': '前往联系与预约',
+    
+    // Contact page additional keys
+    'contact.sidebar.wechat.value': 'XiaoLi_Yorozuya2025（请添加时备注"网站预约"）',
+    'contact.sidebar.location.value': '杭州市西湖区三墩镇 · 阿里巴巴云谷园区一号楼 D 区',
+    'contact.sidebar.visit.p1': '若你在云谷园区或附近工作/生活，可在预约时注明"希望线下面谈"，掌柜会结合当天情况安排合适的见面地点与时间。',
   }
 };
 
