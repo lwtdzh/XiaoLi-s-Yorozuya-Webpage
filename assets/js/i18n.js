@@ -914,7 +914,7 @@ const translations = {
     '404.contact': '前往聯繫與預約',
 
     // Contact page additional keys
-    'contact.sidebar.wechat.value': 'XiaoLi_Yorozuya2025（請添加時備註"網站預約"）',
+    'contact.sidebar.wechat.value': 'changqi_sushi（請添加時備註"網站預約"）',
     'contact.sidebar.location.value': '杭州市西湖區三墩鎮 · 阿里巴巴雲谷園區一號樓 D 區',
     'contact.sidebar.visit.p1': '若你在雲谷園區或附近工作/生活，可在預約時註明"希望線下面談"，掌櫃會結合當天情況安排合適的見面地點與時間。',
     
@@ -1215,7 +1215,7 @@ const translations = {
     'about.vision.p2': '"Why not, ask Xiao Li first."',
 
     // Contact page additional keys
-    'contact.sidebar.wechat.value': 'XiaoLi_Yorozuya2025 (Please note "Website Booking" when adding)',
+    'contact.sidebar.wechat.value': 'changqi_sushi (Please note "Website Booking" when adding)',
     'contact.sidebar.location.value': 'Building 1 Zone D, Alibaba Yungu Campus, Sandun Town, Xihu District, Hangzhou',
     'contact.sidebar.visit.p1': 'If you work/live in or near Yungu Campus, you can note "prefer in-person meeting" when booking, and the owner will arrange a suitable meeting location and time based on the day\'s schedule.',
 
@@ -1658,7 +1658,7 @@ const translations = {
     'about.vision.p2': '「小李に聞いてみようか。」',
 
     // Contact page additional keys
-    'contact.sidebar.wechat.value': 'XiaoLi_Yorozuya2025（追加時「ウェブサイト予約」と備考をお願いします）',
+    'contact.sidebar.wechat.value': 'changqi_sushi（追加時「ウェブサイト予約」と備考をお願いします）',
     'contact.sidebar.location.value': '杭州市西湖区三墩鎮・アリババ雲谷キャンパス1号棟 D 区',
     'contact.sidebar.visit.p1': '雲谷キャンパスまたは近隣でお勤め/お住まいの場合は、予約時に「対面希望」とご記入ください。オーナーがその日のスケジュールに応じて適切な会場と時間を手配いたします。',
 
@@ -1925,7 +1925,7 @@ const translations = {
     '404.contact': 'お問い合わせ・予約',
     
     // Contact page additional keys
-    'contact.sidebar.wechat.value': 'XiaoLi_Yorozuya2025（请添加时备注"网站预约"）',
+    'contact.sidebar.wechat.value': 'changqi_sushi（请添加时备注"网站预约"）',
     'contact.sidebar.location.value': '杭州市西湖区三墩镇 · 阿里巴巴云谷园区一号楼 D 区',
     'contact.sidebar.visit.p1': '若你在云谷园区或附近工作/生活，可在预约时注明"希望线下面谈"，掌柜会结合当天情况安排合适的见面地点与时间。',
   }
