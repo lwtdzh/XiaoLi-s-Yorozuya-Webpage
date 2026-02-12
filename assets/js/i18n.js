@@ -21,6 +21,8 @@ const translations = {
     'lang.ja': '日本語',
     'lang.zhCNShort': '简中',
     'lang.zhTWShort': '繁中',
+    'lang.enShort': 'EN',
+    'lang.jaShort': '日',
     
     // Common
     'common.logoMark': '小李',
@@ -479,6 +481,8 @@ const translations = {
     'lang.ja': '日本語',
     'lang.zhCNShort': '簡中',
     'lang.zhTWShort': '繁中',
+    'lang.enShort': 'EN',
+    'lang.jaShort': '日',
     
     'common.logoMark': '小李',
     'common.brandName': '小李萬事屋',
@@ -951,6 +955,8 @@ const translations = {
     'lang.ja': '日本語',
     'lang.zhCNShort': 'ZH',
     'lang.zhTWShort': 'TW',
+    'lang.enShort': 'EN',
+    'lang.jaShort': 'JP',
     
     'common.logoMark': 'Xiao Li',
     'common.brandName': 'Xiao Li Yorozuya',
@@ -1412,6 +1418,8 @@ const translations = {
     'lang.ja': '日本語',
     'lang.zhCNShort': '簡',
     'lang.zhTWShort': '繁',
+    'lang.enShort': '英',
+    'lang.jaShort': '日',
     
     'common.logoMark': '小李',
     'common.brandName': '小李万事屋',
