@@ -19,8 +19,12 @@ const translations = {
     'lang.zh-TW': '繁體中文',
     'lang.en': 'English',
     'lang.ja': '日本語',
+    'lang.zhCNShort': '简中',
+    'lang.zhTWShort': '繁中',
     
     // Common
+    'common.logoMark': '小李',
+    'common.brandName': '小李万事屋',
     'common.location': '杭州 · 西湖区 · 三墩镇 · 云谷园区',
     'common.operator': 'Wentan Li',
     'common.backToTop': '回到顶部',
@@ -473,7 +477,11 @@ const translations = {
     'lang.zh-TW': '繁體中文',
     'lang.en': 'English',
     'lang.ja': '日本語',
+    'lang.zhCNShort': '簡中',
+    'lang.zhTWShort': '繁中',
     
+    'common.logoMark': '小李',
+    'common.brandName': '小李萬事屋',
     'common.location': '杭州 · 西湖區 · 三墩鎮 · 雲谷園區',
     'common.operator': 'Wentan Li',
     'common.backToTop': '回到頂部',
@@ -941,7 +949,11 @@ const translations = {
     'lang.zh-TW': '繁體中文',
     'lang.en': 'English',
     'lang.ja': '日本語',
+    'lang.zhCNShort': 'ZH',
+    'lang.zhTWShort': 'TW',
     
+    'common.logoMark': 'Xiao Li',
+    'common.brandName': 'Xiao Li Yorozuya',
     'common.location': 'Hangzhou · Xihu · Sandun · Yungu Campus',
     'common.operator': 'Wentan Li',
     'common.backToTop': 'Back to Top',
@@ -1398,7 +1410,11 @@ const translations = {
     'lang.zh-TW': '繁體中文',
     'lang.en': 'English',
     'lang.ja': '日本語',
+    'lang.zhCNShort': '簡',
+    'lang.zhTWShort': '繁',
     
+    'common.logoMark': '小李',
+    'common.brandName': '小李万事屋',
     'common.location': '杭州 · 西湖区 · 三墩鎮 · 雲谷キャンパス',
     'common.operator': 'Wentan Li',
     'common.backToTop': 'トップへ',
