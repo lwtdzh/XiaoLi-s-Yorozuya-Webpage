@@ -49,6 +49,38 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Link exchange: fetch and render friend links
+  const linkExchangeContainer = document.getElementById("link-exchange-list");
+  if (linkExchangeContainer) {
+    const linksUrl = "https://raw.githubusercontent.com/lwtdzh/link-exchange/refs/heads/main/links";
+    fetch(linksUrl)
+      .then(response => response.text())
+      .then(text => {
+        const lines = text.split("\n").filter(line => line.trim() !== "");
+        const fragment = document.createDocumentFragment();
+        lines.forEach(line => {
+          const lastSpaceIndex = line.lastIndexOf(" ");
+          if (lastSpaceIndex === -1) return;
+          const description = line.substring(0, lastSpaceIndex).trim();
+          const url = line.substring(lastSpaceIndex + 1).trim();
+          if (!description || !url) return;
+          const listItem = document.createElement("li");
+          const anchor = document.createElement("a");
+          anchor.href = url;
+          anchor.target = "_blank";
+          anchor.rel = "noopener noreferrer";
+          anchor.textContent = description;
+          listItem.appendChild(anchor);
+          fragment.appendChild(listItem);
+        });
+        linkExchangeContainer.innerHTML = "";
+        linkExchangeContainer.appendChild(fragment);
+      })
+      .catch(() => {
+        linkExchangeContainer.innerHTML = '<li class="link-exchange-loading">链接加载失败，请稍后再试。</li>';
+      });
+  }
+
   // Contact form with document download feature
   const contactForm = document.querySelector("#contact-form");
   if (contactForm) {
